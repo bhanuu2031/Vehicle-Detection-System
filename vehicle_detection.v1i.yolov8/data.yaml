@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['auto_back', 'auto_front', 'bus_back', 'bus_front', 'car_back', 'car_front', 'number_plate', 'tractor_back', 'tractor_front', 'truck_back', 'truck_front', 'two_wheeler_back', 'two_wheeler_front']
+
+roboflow:
+  workspace: bhanu-o7gyh
+  project: vehicle_detection-rdah2-wvwbb-ztzu7
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/bhanu-o7gyh/vehicle_detection-rdah2-wvwbb-ztzu7/dataset/1
